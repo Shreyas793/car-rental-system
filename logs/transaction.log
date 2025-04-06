@@ -1,0 +1,3 @@
+2025-04-06 11:29:34 INFO  [main] com.carrental.transaction - Car Updated - ID: 1 | Make: Toyota | Model: Supra | Year: 2023 | Price: $1500.0 | Available: true
+2025-04-06 11:29:34 INFO  [main] com.carrental.transaction - Car Added - ID: null | Make: Toyota | Model: Camry | Year: 2022 | Price: $1000.0 | Available: true
+2025-04-06 11:29:34 INFO  [main] com.carrental.rental - Rental Confirmed - UserID: 1 | CarID: 10 | StartTime: 2025-04-06T11:29:34.900074 | Status: RENTED

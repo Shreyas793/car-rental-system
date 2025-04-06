@@ -1,0 +1,62 @@
+2025-04-03 20:58:09 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(6)-127.0.0.1: accepted socket from [127.0.0.1:51720]
+2025-04-03 20:58:09 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(6)-127.0.0.1: (port 51673) op = 80
+2025-04-03 20:58:09 [TRANSACTION] DEBUG - TransactionID: connectionId=rmi://127.0.0.1  1
+2025-04-03 20:58:12 [TRANSACTION] DEBUG - TransactionID: HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-04-03 20:58:12 [TRANSACTION] DEBUG - TransactionID: HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2025-04-03 20:58:24 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(6)-127.0.0.1: (port 51673) connection closed
+2025-04-03 20:58:24 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(6)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=51720,localport=51673]
+2025-04-03 20:58:24 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(6)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=51720,localport=51673]
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(7)-127.0.0.1: accepted socket from [127.0.0.1:51723]
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(7)-127.0.0.1: (port 51671) op = 80
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(8)-127.0.0.1: accepted socket from [127.0.0.1:51724]
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(8)-127.0.0.1: (port 51673) op = 80
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(8)-127.0.0.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@4ccdc936
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(8)-127.0.0.1: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@4ccdc936
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(8)-127.0.0.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@4ccdc936
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(8)-127.0.0.1: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@4ccdc936
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(8)-127.0.0.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@4ccdc936
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(8)-127.0.0.1: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@4ccdc936
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(7)-127.0.0.1: (port 51671) op = 82
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(7)-127.0.0.1: (port 51671) op = 84
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(8)-127.0.0.1: (port 51673) op = 80
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(8)-127.0.0.1: (port 51673) op = 80
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(8)-127.0.0.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@4ccdc936
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(8)-127.0.0.1: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@4ccdc936
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(8)-127.0.0.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@4ccdc936
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(8)-127.0.0.1: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@4ccdc936
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(8)-127.0.0.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@4ccdc936
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(8)-127.0.0.1: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@4ccdc936
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(8)-127.0.0.1: (port 51673) op = 84
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(8)-127.0.0.1: (port 51673) op = 80
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(8)-127.0.0.1: (port 51673) op = 80
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(8)-127.0.0.1: name = "javax.management.ObjectName", codebase = ""
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: RMI TCP Connection(8)-127.0.0.1: name = "java.rmi.MarshalledObject", codebase = ""
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: connectionId=rmi://127.0.0.1  2 unwrapping params with MBean extended ClassLoader.
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: connectionId=rmi://127.0.0.1  2, name=org.springframework.boot:type=Admin,name=SpringApplication, operationName=shutdown, signature=null
+2025-04-03 20:58:32 [TRANSACTION] INFO  - TransactionID: Application shutdown requested.
+2025-04-03 20:58:32 [TRANSACTION] INFO  - TransactionID: Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-03 20:58:32 [TRANSACTION] INFO  - TransactionID: Pausing ProtocolHandler ["http-nio-8080"]
+2025-04-03 20:58:32 [TRANSACTION] INFO  - TransactionID: Graceful shutdown complete
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: Setting state for [Connector["http-nio-8080"]] to [STOPPING_PREP]
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: Setting state for [Connector["http-nio-8080"]] to [STOPPING]
+2025-04-03 20:58:32 [TRANSACTION] INFO  - TransactionID: Stopping ProtocolHandler ["http-nio-8080"]
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: Setting state for [Connector["http-nio-8080"]] to [STOPPED]
+2025-04-03 20:58:32 [TRANSACTION] INFO  - TransactionID: Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: HHH000031: Closing
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@1bc20a47] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@e2696e8]
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+2025-04-03 20:58:32 [TRANSACTION] INFO  - TransactionID: HikariPool-1 - Shutdown initiated...
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2b1d1a5: (connection evicted)
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2e9942b5: (connection evicted)
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6fa4488e: (connection evicted)
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5e81e46e: (connection evicted)
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@f8bb7c1: (connection evicted)
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@bc54ceb: (connection evicted)
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@43b0b051: (connection evicted)
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2d3385aa: (connection evicted)
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7419f375: (connection evicted)
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@489da546: (connection evicted)
+2025-04-03 20:58:32 [TRANSACTION] DEBUG - TransactionID: HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-04-03 20:58:32 [TRANSACTION] INFO  - TransactionID: HikariPool-1 - Shutdown completed.

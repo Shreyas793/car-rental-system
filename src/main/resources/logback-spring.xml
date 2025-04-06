@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!-- General Pattern -->
+    <property name="LOG_PATTERN" value="%d{yyyy-MM-dd HH:mm:ss} %-5level [%thread] %logger{36} - %msg%n" />
+    <property name="LOG_DIR" value="logs" />
+
+    <!-- Console Appender -->
+    <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Transaction Logger -->
+    <appender name="TRANSACTION_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/transaction.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- Daily rollover -->
+            <fileNamePattern>${LOG_DIR}/transaction.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <!-- Keep logs for 30 days -->
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Payment Logger -->
+    <appender name="PAYMENT_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_DIR}/payment.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- Daily rollover -->
+            <fileNamePattern>${LOG_DIR}/payment.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <!-- Keep logs for 30 days -->
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Logger for transaction events -->
+    <logger name="com.carrental.transaction" level="INFO" additivity="false">
+        <appender-ref ref="TRANSACTION_FILE"/>
+    </logger>
+
+    <!-- Logger for payment events -->
+    <logger name="com.carrental.payment" level="INFO" additivity="false">
+        <appender-ref ref="PAYMENT_FILE"/>
+    </logger>
+
+    <!-- Optional: Logger for car rentals -->
+    <logger name="com.carrental.rental" level="INFO" additivity="false">
+        <appender-ref ref="TRANSACTION_FILE"/>
+    </logger>
+
+    <!-- Root logger -->
+    <root level="INFO">
+        <appender-ref ref="Console"/>
+    </root>
+
+</configuration>

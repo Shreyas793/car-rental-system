@@ -1,0 +1,25 @@
+2025-04-05 12:29:38 INFO  [http-nio-8080-exec-7] com.carrental.transaction - Car Added - ID: 20 | Make: mahindra | Model: Thar | Year: 2022 | Price: $3000.0 | Available: true
+2025-04-05 12:30:45 INFO  [http-nio-8080-exec-2] com.carrental.transaction - Car Updated - ID: 2 | Make: Honda | Model: Civic | Year: 2023 | Price: $2900.0 | Available: false
+2025-04-05 12:32:49 INFO  [http-nio-8080-exec-3] com.carrental.rental - Rental Confirmed - UserID: 9 | CarID: 17 | StartTime: 2025-04-05T12:32:49.094204400 | Status: RENTED
+2025-04-05 12:36:12 INFO  [http-nio-8080-exec-5] com.carrental.rental - Rental Confirmed - UserID: 5 | CarID: 15 | StartTime: 2025-04-05T12:36:12.752972500 | Status: RENTED
+2025-04-05 13:12:31 INFO  [main] com.carrental.transaction - Car Updated - ID: null | Make: Toyota | Model: Supra | Year: 2023 | Price: $1500.0 | Available: true
+2025-04-05 13:12:31 INFO  [main] com.carrental.transaction - Car Added - ID: null | Make: Toyota | Model: Camry | Year: 2022 | Price: $1000.0 | Available: true
+2025-04-05 13:12:31 INFO  [main] com.carrental.rental - Rental Confirmed - UserID: 1 | CarID: 10 | StartTime: 2025-04-05T13:12:31.782177700 | Status: RENTED
+2025-04-05 13:18:18 INFO  [main] com.carrental.transaction - Car Updated - ID: null | Make: Toyota | Model: Supra | Year: 2023 | Price: $1500.0 | Available: true
+2025-04-05 13:18:18 INFO  [main] com.carrental.transaction - Car Added - ID: null | Make: Toyota | Model: Camry | Year: 2022 | Price: $1000.0 | Available: true
+2025-04-05 13:18:18 INFO  [main] com.carrental.rental - Rental Confirmed - UserID: 1 | CarID: 10 | StartTime: 2025-04-05T13:18:18.254944700 | Status: RENTED
+2025-04-05 13:22:23 INFO  [main] com.carrental.transaction - Car Updated - ID: null | Make: Toyota | Model: Supra | Year: 2023 | Price: $1500.0 | Available: true
+2025-04-05 13:22:23 INFO  [main] com.carrental.transaction - Car Added - ID: null | Make: Toyota | Model: Camry | Year: 2022 | Price: $1000.0 | Available: true
+2025-04-05 13:22:23 INFO  [main] com.carrental.rental - Rental Confirmed - UserID: 1 | CarID: 10 | StartTime: 2025-04-05T13:22:23.413060100 | Status: RENTED
+2025-04-05 13:26:03 INFO  [main] com.carrental.transaction - Car Updated - ID: null | Make: Toyota | Model: Supra | Year: 2023 | Price: $1500.0 | Available: true
+2025-04-05 13:26:03 INFO  [main] com.carrental.transaction - Car Added - ID: null | Make: Toyota | Model: Camry | Year: 2022 | Price: $1000.0 | Available: true
+2025-04-05 13:26:03 INFO  [main] com.carrental.rental - Rental Confirmed - UserID: 1 | CarID: 10 | StartTime: 2025-04-05T13:26:03.772373400 | Status: RENTED
+2025-04-05 13:51:43 INFO  [main] com.carrental.transaction - Car Updated - ID: null | Make: Toyota | Model: Supra | Year: 2023 | Price: $1500.0 | Available: true
+2025-04-05 13:51:43 INFO  [main] com.carrental.transaction - Car Added - ID: null | Make: Toyota | Model: Camry | Year: 2022 | Price: $1000.0 | Available: true
+2025-04-05 13:51:44 INFO  [main] com.carrental.rental - Rental Confirmed - UserID: 1 | CarID: 10 | StartTime: 2025-04-05T13:51:44.150718700 | Status: RENTED
+2025-04-05 13:57:15 INFO  [main] com.carrental.transaction - Car Updated - ID: null | Make: Toyota | Model: Supra | Year: 2023 | Price: $1500.0 | Available: true
+2025-04-05 13:57:15 INFO  [main] com.carrental.transaction - Car Added - ID: null | Make: Toyota | Model: Camry | Year: 2022 | Price: $1000.0 | Available: true
+2025-04-05 13:57:15 INFO  [main] com.carrental.rental - Rental Confirmed - UserID: 1 | CarID: 10 | StartTime: 2025-04-05T13:57:15.701978600 | Status: RENTED
+2025-04-05 21:53:46 INFO  [main] com.carrental.rental - Rental Confirmed - UserID: 1 | CarID: 10 | StartTime: 2025-04-05T21:53:46.392548200 | Status: RENTED
+2025-04-05 21:53:46 INFO  [main] com.carrental.transaction - Car Updated - ID: null | Make: Toyota | Model: Supra | Year: 2023 | Price: $1500.0 | Available: true
+2025-04-05 21:53:46 INFO  [main] com.carrental.transaction - Car Added - ID: null | Make: Toyota | Model: Camry | Year: 2022 | Price: $1000.0 | Available: true
